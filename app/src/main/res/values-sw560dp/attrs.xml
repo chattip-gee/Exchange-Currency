@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LayoutRatio">
+        <attr name="widthByHeight" format="float" />
+        <attr name="heightByWidth" format="float" />
+        <attr name="squareByWidth" format="boolean" />
+        <attr name="squareByHeight" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewColorHelper">
+        <attr name="imageTintColor" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="FontAttributes">
+        <attr name="customFontName" format="string" />
+        <attr name="fontSizePercent" format="integer" />
+
+        <attr name="defaultFontStyle">
+            <enum name="none" value="0" />
+            <enum name="thin" value="1" />
+            <enum name="light" value="2" />
+            <enum name="regular" value="3" />
+            <enum name="medium" value="4" />
+            <enum name="bold" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+</resources>
